@@ -1,12 +1,14 @@
 // User's letter grade
 
 let grade = prompt("Enter your letter grade using a capital letter.")
-let name = prompt("What is your first name guest?")
+
+let name = prompt("Enter your first name: ")
+
 
 // Give user feedback on grade
 
 switch (grade) {
-case "A":
+case "A"
   alert(`${name}, Good Job`)
   break
 case "B":
