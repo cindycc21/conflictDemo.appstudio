@@ -7,7 +7,7 @@ let name = prompt("Enter your first name: ")
 
 switch (grade) {
 case "A":
-  alert("Good Job")
+  alert`${name} Good Job`)
   break
 case "B":
   alert("Pretty Good Job")
