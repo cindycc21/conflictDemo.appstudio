@@ -12,6 +12,9 @@ case "A":
 case "B":
   alert("Pretty Good Job")
   break
+case "K":
+  alert("This is the K message")
+  break
 case "C":
   alert("Passed")
   break
