@@ -7,7 +7,10 @@ Button1.onclick = function() {
   // Give user feedback on grade
 
   switch (grade) {
-    case "A":
+  case "Z":
+    alert("Case of Z")
+    break
+  case "A":
     alert`${name} Good Job`)
     break
   case "B":
