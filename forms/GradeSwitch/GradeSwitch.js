@@ -1,6 +1,8 @@
 // User's letter grade
 
-let grade = prompt("Enter your letter grade using a capital letter.")
+
+Button1.onclick=function(){
+  let grade = prompt("Enter your letter grade using a capital letter.")
 let name = prompt("Enter your first name: ")
 
 // Give user feedback on grade
@@ -24,4 +26,6 @@ case "F":
 default:
   alert("Uh oh")
   break
+}
+
 }
